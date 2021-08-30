@@ -131,23 +131,34 @@ body{
     bottom: 13px;
 }
 
-.opcao .check{
+.check{
     display: none;
-    background-image: url(../img/check.png);
-    width: 17px;
-    height: 17px;
+    width: 47px;
+    height: 19px;
     position: absolute;
-    right: 15px;
+    right: 11px;
     bottom: 11px;
+    justify-content: space-between;
 }
 
-.opcao_selecionada .check{
-    background-image: url(../img/check.png);
-    width: 17px;
-    height: 17px;
+.check_selecionado {
+    display: flex;
+    width: 47px;
+    height: 19px;
     position: absolute;
-    right: 15px;
+    right: 11px;
     bottom: 11px;
+    justify-content: space-between;
+}
+
+.remove_qty {
+    font-weight: bold;
+    color: #CF2B2B;
+}
+
+.add_qty {
+    font-weight: bold;
+    color: #32B72F;
 }
 
 .escondido{
