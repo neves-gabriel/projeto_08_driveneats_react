@@ -1,17 +1,19 @@
 import Header from './components/Header';
-import Main_Dishes from './components/Main_Dishes';
-import Drinks from './components/Drinks';
-import Deserts from './components/Deserts';
 import Footer from './components/Footer';
+import {categoriesData} from './components/Dishes_Data';
+import Categories from './components/Categories';
+import { useState } from 'react'
 
 export default function App() {
+
     return (
         <div>
 			<Header />
             <div class="conteudo">
-                <Main_Dishes />
-                <Drinks />
-                <Deserts />
+                {categoriesData.map(({ categoriesTitle, dishesData }) => <Categories
+                    categoryTitle={categoriesTitle}
+                    dishesData={dishesData}                    
+                />)}
             </div>
             <Footer />
 		</div>

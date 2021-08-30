@@ -46,14 +46,6 @@ body{
     margin-left: 19px;
 } 
 
-.barra-bebida{
-    margin-top: 27px;
-}  
-
-.barra-sobremesa {
-    margin-top: 27px;
-}
-
 .container-img {
     width: 144px;
     height: 87px;
@@ -70,8 +62,8 @@ body{
     width: 100%;
 }
 
-.barra-bebida .container-img img {
-    width: auto;
+.barra {
+    margin-top: 27px;
 }
 
 .opcoes {
